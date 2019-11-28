@@ -9,7 +9,7 @@ import java.io.File;
 public class App {
 	public static void main(String[] args) {
 		
-//		String path = "E:\\BRAVEHEARTS-RESOURCE\\excel";
+//		String path = "E:\\excel";
 
 		String path = args[0];
 		File dir = new File(path);
