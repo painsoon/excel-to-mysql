@@ -8,10 +8,15 @@
 |----|----|----|  
 | (field)id|name|age|  
 | (type)int|varchar(100)|int|  
-|什么表|||  
+|人物表|||  
 |(字段描述)主键|名字|年龄|  
 |1|zhangwuji|24|  
-|2|xiexun|50|
+|2|xiexun|50|  
+
+target中有打包的jar包，直接执行加excel存放路径即可  
+```
+java -jar excel-to-mysql-0.0.1-SNAPSHOT.jar D:\\data 
+```
 
 
 
